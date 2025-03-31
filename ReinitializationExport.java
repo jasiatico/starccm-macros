@@ -1,6 +1,7 @@
 // Simcenter STAR-CCM+ macro: ReinitializationExport.java
 // General macro to grab list of common fields used for reinitialization and store in a table to export.
 // Use ReinitializationImport.java to quickly define this exported file as the initial conditions for a given sim.
+// Take note to modify region name on line ~44
 // STAR-CCM+ Version: 2506 Build 19.04.007
 
 package macro;
