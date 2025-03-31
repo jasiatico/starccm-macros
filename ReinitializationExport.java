@@ -48,9 +48,9 @@ public class ReinitializationExport extends StarMacro {
 
     xyzInternalTable_0.getParts().setObjects(partsList);
 
-    //xyzInternalTable_0.extract();
+    xyzInternalTable_0.extract();
 
-    //xyzInternalTable_0.export("./Initialization.csv", ",");
+    xyzInternalTable_0.export("./Initialization.csv", ",");
 
   }
 }
