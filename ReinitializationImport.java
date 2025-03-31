@@ -1,7 +1,7 @@
 // Simcenter STAR-CCM+ macro: ReinitializationImport.java
 // Uses CSV file from ReinitializationExport.java or any CSV file to provide
 // general initial condition settings for a sim.
-//
+// STAR-CCM+ Version: 2506 Build 19.04.007
 
 package macro;
 
