@@ -74,8 +74,18 @@ public class ReinitializationImport extends StarMacro {
         comp.setMethod(XyzTabularScalarProfileMethod.class);
         comp.getMethod(XyzTabularScalarProfileMethod.class).setTable(table);
         comp.getMethod(XyzTabularScalarProfileMethod.class).setData(labels[i]);
-      }
-    }
+
+      
+
+
+        
+      } // end of for loop
+    } // end of continuum loop
+
+    //Initialize solution so we can delete the table (unnecessary tables can take up too much memory)
+    Solution solution = sim.getSolution();
+    solution.initializeSolution();
+    sim.deleteObjects(new ArrayList<>(Arrays.<ClientServerObject>asList(table)));
   }
 }
 
