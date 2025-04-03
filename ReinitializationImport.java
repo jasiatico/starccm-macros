@@ -16,7 +16,7 @@ import star.turbulence.*;
 import star.flow.*;
 import star.energy.*;
 
-public class ImportReinitialization extends StarMacro {
+public class ReinitializationImport extends StarMacro {
 
   public void execute() {
     execute0();
